@@ -22,7 +22,7 @@ WORKDIR xv6-public
 RUN make
 RUN make clean
 # RUN make qemu
-RUN make qemu-nox
+# RUN make qemu-nox
 
 # [Quit qemu]
 # ctrl+a c
