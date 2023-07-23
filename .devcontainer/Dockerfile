@@ -24,7 +24,11 @@ RUN git clone https://github.com/mit-pdos/xv6-public.git
 WORKDIR xv6-public
 RUN make
 RUN make clean
-# RUN sudo make qemu-nox # run on terminal in ./
+# sudo make qemu-nox # run on terminal in /xv6-public/
+
+# [qemu]
+# ls
+# cat README
 
 # [Quit qemu]
 # ctrl+a c
